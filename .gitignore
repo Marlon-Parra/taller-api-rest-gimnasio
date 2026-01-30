@@ -1,0 +1,36 @@
+# ===== Java =====
+*.class
+*.log
+*.ctxt
+
+# ===== Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== IDEs =====
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Spring Boot =====
+logs/
+spring.log
+
+# ===== Environment / Secrets =====
+.env
+application-local.properties
+
+# ===== MySQL =====
+*.sql
